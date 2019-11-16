@@ -1,0 +1,33 @@
+*{
+    font-family: "Microsoft YaHei UI";
+}
+.form-control{
+    margin-bottom:7%;
+    font-size: 11px;
+}
+ .btn-default{
+    background:  #262626;
+}
+ .input-group-btn{
+     padding: 0;
+     background:  #262626;
+ }
+.col-sm-12{
+     padding: 0;
+ }
+ .login-btn{
+     margin-top:7%;
+ }
+ .login-btn .btn-primary{
+     width: 100%;
+ }
+ #backLogin{
+     color:  #a3a3a3;
+     font-size: 0.7em;
+     margin-top: 5%;
+ }
+ .input-group-btn .btn-default{
+     color: darkgrey;
+     background:  #262626;
+     padding: 7.5px 5px;
+ }

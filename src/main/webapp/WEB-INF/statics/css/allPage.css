@@ -1,0 +1,174 @@
+* {
+    font-family: "Microsoft YaHei UI";
+}
+
+#main {
+    min-width: 320px;
+    padding: 0;
+    position: relative;
+}
+
+#main #main-loginImg {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-form {
+    position: absolute;
+    left: 0;
+    top: 22.5%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.main-form form .form-control {
+    background: #262626;
+    color: cornsilk;
+}
+
+.main-form form .form-group {
+    margin: 0 auto;
+}
+
+.img-list-2 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.input-group-addon {
+    background: #262626;
+}
+
+.fa-i {
+    color: #0264ae;
+    border: none;
+}
+
+.fa-picture {
+    display: inline-block;
+    margin: 23% auto;
+}
+
+#forget {
+    font-size: 0.7em;
+    font-weight: 500;
+}
+
+.form-img {
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 10%;
+}
+
+.form-submit {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.form-footer {
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 6%;
+}
+
+#h5 {
+    font-family: "Microsoft YaHei UI";
+    color: #85837f;
+    margin-bottom: 10%;
+    font-size: 13px;
+}
+
+#footer {
+    margin: 5% 0;
+}
+
+div#footer span:first-child {
+    color: #a3a3a3;
+    font-size: 0.7em;
+}
+
+#reg {
+    font-size: 0.7em;
+}
+
+#forget:hover, #forget:active,
+#reg:hover, #reg:active {
+    color: #0264ae;
+}
+
+hr {
+    border-top: 1px solid gray;
+}
+
+.btn-default {
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+#shake {
+    display: none;
+}
+
+.shake {
+    width: 220px;
+    color: #eeefe2;
+    font-size: 12px;
+    animation: zoom 1s;
+    -webkit-animation: zoom 1s;
+    background-color: crimson;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 4px 6px 5px 0 rgba(0, 0, 0, 0.1), 4px 6px 5px 1px rgba(0, 0, 0, 0.39);
+}
+
+@keyframes zoom {
+    from, to {
+        transform: translate3d(0, 0, 0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translate3d(-10px, 0, 0);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+@-webkit-keyframes zoom {
+    from, to {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+    }
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translate3d(10px, 0, 0);
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 320px) {
+    .main-form {
+        top: 21%;
+    }
+
+    .form-footer {
+        margin-top: 0;
+    }
+
+    .btn-default {
+        font-size: 10px;
+        padding: 1px 2px;
+    }
+}

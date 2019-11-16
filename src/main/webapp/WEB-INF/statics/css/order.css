@@ -1,0 +1,328 @@
+.main-form {
+    position: absolute;
+    left: 0;
+    top: 1.5%;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    background-color: #333;
+}
+
+.form-img {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10%;
+    position: absolute;
+}
+
+.img-list-2, .img-list li {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    display: block;
+    border: 1px solid rgb(0, 104, 183);
+    background: #fff no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.img-list-2 {
+    background: #373737;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+}
+
+.form-img-header {
+    float: left;
+    position: relative;
+    margin: 4% 0;
+    text-align: left;
+}
+
+.form-img-header span {
+    color: #a3a3a3;
+    font-size: 0.7em;
+    margin-left: 10px;
+}
+
+.form-img-header > span:first-child {
+    font-size: 0.8em;
+}
+
+.fa-setting {
+    position: relative;
+    margin-right: 10px;
+    color: #a9a9a9;
+}
+
+.fa-setting:hover, .fa-setting:active {
+    color: #0264ae;
+}
+
+.form-submit {
+    margin: 23% auto;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#myTab li a {
+    background-color: #2f5499;
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+#myTab li a:hover, #myTab li a:active, #myTab li a:visited {
+    background-color: #2a416c;
+!important;
+    color: #cad0e0;
+}
+
+.nav > li > a {
+    padding: 10px 24px;
+}
+
+.tab-pane {
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.xiaoQu-content {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #cad0e0;;
+    font-size: 13px;
+}
+
+.xiaoQu-head {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.xiaoQu-detail {
+    color: #cad0e0;
+}
+
+.order-button {
+    margin-top: 5%;
+    background: #2a416c;
+}
+
+.wenJ-shiErQ {
+    margin-top: 15%;
+}
+
+.modal-body a {
+    color: #2a416c;
+    font-size: 12px;
+}
+
+@media screen and ( max-width: 360px) {
+    .wenJ-shiErQ {
+        margin-top: 11%;
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 320px) {
+    .nav > li > a {
+        padding: 6px 18px;
+        font-size: 13px;
+
+    }
+
+    .form-submit {
+        margin: 28% auto;
+        margin-bottom: 0;
+    }
+
+    .tab-pane {
+        margin-top: 2%;
+    }
+
+    .xiaoQu-content {
+        font-size: 12px;
+    }
+
+    .order-button {
+        margin-top: 2%;
+        font-size: 12px;
+    }
+
+    .wenJ-shiErQ {
+        margin-top: 5%;
+    }
+
+    .modal-body a {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 768px) {
+    .main-form {
+        top: 3.5%;
+    }
+
+    .form-submit {
+        margin: 22% auto;
+        margin-bottom: 0;
+    }
+
+    .nav > li > a {
+        padding: 20px 44px;
+
+    }
+
+    #myTab li a {
+        font-size: 18px;
+    }
+
+    .img-list-2, .img-list li {
+        width: 120px;
+        height: 120px;
+    }
+
+    .fa-picture {
+        margin: 33% auto;
+    }
+
+    .form-img-header {
+        margin: 4.5% 0;
+    }
+
+    .fa-setting {
+        font-size: 2em
+    }
+
+    .form-img-header span {
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+
+    .form-img-header > span:first-child {
+        font-size: 1.2em;
+    }
+
+    .tab-pane {
+        margin-top: 15%;
+        text-align: center;
+    }
+
+    .xiaoQu-content {
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    .order-button {
+        margin-top: 10%;
+        font-size: 18px;
+        padding: 15px 25px;
+    }
+
+    .wenJ-shiErQ {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1024px) {
+    .main-form {
+        top: 4.5%;
+    }
+
+    .form-submit {
+        margin: 21.5% auto;
+        margin-bottom: 0;
+    }
+
+    .nav > li > a {
+        padding: 20px 44px;
+    }
+
+    #myTab li a {
+        font-size: 22px;
+    }
+
+    .img-list-2, .img-list li {
+        width: 130px;
+        height: 130px;
+    }
+
+    .fa-picture {
+        margin: 32% auto;
+    }
+
+    .fa-setting {
+        font-size: 3em
+    }
+
+    .form-img-header {
+        margin: 3.5% 0;
+    }
+
+    .form-img-header span {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+
+    .form-img-header > span:first-child {
+        font-size: 1.5em;
+    }
+
+    .tab-pane {
+        margin-top: 15%;
+        text-align: center;
+    }
+
+    .xiaoQu-content {
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px;
+    }
+
+    .order-button {
+        margin-top: 8%;
+        font-size: 22px;
+        padding: 20px 30px;
+    }
+
+    .wenJ-shiErQ {
+        margin-top: 20%;
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+
+    .img-list-2, .img-list li {
+        width: 150px;
+        height: 150px;
+    }
+
+    .fa-picture {
+        margin: 40% auto;
+    }
+
+    .tab-pane {
+        margin-top: 25%;
+        text-align: center;
+    }
+
+    .xiaoQu-content {
+        height: 60px;
+        line-height: 60px;
+        font-size: 24px;
+    }
+
+    #shiErQ-nowOrder, #wangJiaG-nowOrder, #renNan-nowOrder, #wenJ-nowOrder-1, #wenJ-nowOrder-2, #wenJ-nowOrder-3 {
+        margin-top: 10%;
+        font-size: 24px;
+        padding: 25px 35px;
+    }
+
+    .wenJ-shiErQ {
+        margin-top: 25%;
+    }
+}

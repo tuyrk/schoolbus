@@ -1,0 +1,205 @@
+.form-header {
+    position: absolute;
+    width: 100%;
+    float: left;
+    top: -3%;
+    cursor: pointer;
+}
+
+.fa-back-a {
+    position: relative;
+    margin-left: 10px;
+    color: #a9a9a9;
+}
+
+.fa-back-a:hover, .fa-back-a:active {
+    color: #0264ae;
+    text-decoration: none;
+}
+
+.fa-back-a .fa-back-text {
+    font-size: 14px;
+}
+
+.input-group-btn {
+    padding: 0;
+    background: #262626;
+}
+
+.input-group-btn .btn-default {
+    color: darkgrey;
+    background: #262626;
+    padding: 7.5px 5px;
+}
+
+.col-sm-12 {
+    padding: 0;
+}
+
+.form-control {
+    margin-bottom: 7%;
+    font-size: 11px;
+}
+
+.form-submit {
+    margin: 0 auto;
+    width: 95%;
+    color: #666;
+}
+
+.currentOrder {
+    text-align: left;
+    background-image: url('../images/checkOrderSmaller.png');
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 100%;
+}
+
+.currentOrder p, .orderHistory p {
+    font-size: 15px;
+    color: #85837f;
+}
+
+.currentOrder span, .orderHistory span {
+    font-size: 13px;
+    color: #85837f;
+}
+
+.fa-bus {
+    color: #0264ae;
+}
+
+.order-button {
+    background-color: #2a416c;
+    margin-top: 3%;
+    color: #adadad;
+}
+
+.btn-primary {
+    font-size: 10px;
+}
+
+.orderHistory {
+    text-align: left;
+    background-image: url('../images/checkOrderSmaller.png');
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.form-footer {
+    position: fixed;
+    width: 100%;
+    clear: both;
+    bottom: 1%;
+}
+
+#footer {
+    margin-top: 0;
+}
+
+.main-form {
+    top: 4.5%;
+}
+
+@media screen and (min-width: 1024px) {
+    #footer {
+        padding-top: 20%;
+    }
+
+    .currentOrder {
+        padding: 25px;
+    }
+
+    .currentOrder p, .orderHistory p {
+        font-size: 17px;
+    }
+
+    .currentOrder span, .orderHistory span {
+        font-size: 15px;
+    }
+
+    .order-button {
+        margin-top: 8%;
+    }
+
+    .orderHistory {
+        padding: 25px;
+        margin-top: 10%;
+    }
+
+    .fa-back-a .fa-back-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+    #footer {
+        padding-top: 30%;
+    }
+
+    .currentOrder {
+        padding: 20px;
+    }
+
+    .currentOrder p, .orderHistory p {
+        font-size: 15px;
+    }
+
+    .currentOrder span, .orderHistory span {
+        font-size: 13px;
+    }
+
+    .order-button {
+        margin-top: 5%;
+    }
+
+    .orderHistory {
+        padding: 20px;
+        margin-top: 5%;
+    }
+
+    .fa-back-a .fa-back-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 320px) {
+    .form-submit {
+        width: 90%;
+    }
+
+    #footer {
+        margin: 0;
+    }
+
+    .currentOrder {
+        padding: 10px;
+    }
+
+    .currentOrder p, .orderHistory p {
+        font-size: 13px;
+    }
+
+    .currentOrder span, .orderHistory span {
+        font-size: 11px;
+    }
+
+    .order-button {
+        margin-top: 2%;
+    }
+
+    .orderHistory {
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .fa-back-a .fa-back-text {
+        font-size: 12px;
+    }
+}

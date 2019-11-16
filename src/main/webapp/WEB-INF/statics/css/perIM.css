@@ -1,0 +1,147 @@
+
+* {
+    font-family: "Microsoft YaHei UI";
+}
+
+.form-header {
+    position: absolute;
+    width: 100%;
+    float: left;
+    top: -29%;
+}
+
+.fa-back {
+    position: relative;
+    margin-left: 10px;
+    color: #a9a9a9;
+}
+
+.fa-new-save {
+    position: relative;
+    margin-right: 10px;
+    color: #a9a9a9;
+}
+
+.fa-back:hover, .fa-new-save:hover, .fa-back:active, .fa-new-save:active {
+    color: #0264ae;
+}
+
+.form-submit {
+    margin: 0 auto;
+    width: 90%;
+    color: #666;
+}
+
+.form-footer {
+    margin: 0 auto;
+    width: 80%;
+    clear: both;
+}
+
+#footer {
+    padding-top: 10%;
+}
+
+.information {
+    width: 50%;
+}
+
+.information .textFa-icon {
+    margin: 11% 0;
+    min-width: 22%;
+}
+
+.textFa-text {
+    margin: 5% 0;
+}
+
+.textSpan {
+    font-size: 0.6em;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.fa-icon {
+    color: #0264ae;
+}
+
+.textArea {
+    width: 130px;
+    height: 20px;
+    resize: none;
+    font-size: 13px;
+    line-height: 13px;
+    padding-left: 7px;
+    background: #343434;
+    color: #a9a9a9;
+    border: none;
+}
+
+.textArea:hover, .textArea:active {
+    border: none;
+    border-bottom: 1px solid #666;
+}
+
+@media screen and (min-width: 1024px) {
+    .form-header {
+        top: -37%;
+    }
+    #footer{
+        padding-top: 20%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .textFa-text {
+        margin: 9% 0;
+    }
+
+    .textSpan {
+        font-size: 0.8em;
+    }
+
+    .textArea {
+        padding-left: 8px;
+    }
+
+    .information .textFa-icon {
+        min-width: 10%;
+    }
+    .textArea{
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+    .form-header {
+        top: -31%;
+    }
+
+    #footer {
+        padding-top: 30%;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 360px) {
+    .form-submit {
+        width: 98%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 320px) {
+    .form-submit {
+        width: 98%;
+    }
+
+    .form-header {
+        top: -25%;
+    }
+
+    #footer {
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .textArea {
+        width: 120px;
+    }
+}
