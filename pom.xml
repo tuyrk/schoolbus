@@ -23,7 +23,7 @@
         <!-- javaee-web-api -->
         <javaee-web-api.version>6.0</javaee-web-api.version>
         <!-- json -->
-        <jackson.version>2.9.10.1</jackson.version>
+        <jackson.version>2.11.0</jackson.version>
         <!--jstl-->
         <jstl.version>1.2</jstl.version>
         <!-- 数据库连接池 -->
