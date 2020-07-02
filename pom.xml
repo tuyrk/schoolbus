@@ -17,7 +17,7 @@
         <!-- mybatis-spring -->
         <mybatis-spring.version>1.2.2</mybatis-spring.version>
         <!-- mysql驱动包版本号-->
-        <mysql.version>5.1.35</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <!-- javaee-api包 -->
         <javaee-api.version>8.0</javaee-api.version>
         <!-- javaee-web-api -->
